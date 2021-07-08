@@ -59,3 +59,11 @@ footer .redes-sociales .github:hover{background:#666666 ;}
         padding-bottom: 40px;
     } 
 }
+
+@media (min-width:500px){
+    .redes-sociales a{
+        font-size: 25px;
+        padding: 15px 10px;
+    }
+    
+}
