@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Miranda Desing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/experience.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="" class="logo">
+              <img height="50px" 
+                width="50px" 
+                src="img/logotipo-flat.jpg" 
+                alt="Programador Web">
+                <div class="texto">
+                   Samuel Miranda <br>
+                   { code } 
+                </div>  
+            </a>
+
+            <!--Boton hamburguesa-->
+            <button class="open-menu" aria-label="Abrir menú">
+                <img src="img/hamburgesa.svg" alt="Abrir menú">
+            </button>
+
+            <ul class="menu">
+            <!--Boton Cerrar-->
+            <button class="close-menu" aria-label="Cerrar menú">
+                <img src="img/cerrar.svg" alt="cerrar menú">
+            </button>
+                <li><a href="#profile" class="selected">Perfil</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="profile" id="profile">
+            <div class="profile-info">
+                <h1 class="profile-title">Hola, Soy <br/>Samuel Miranda</h1>
+                <p class="profile-details">
+                    Soy Ingeniero de Sistemas, apasionado por el desarrollo web,
+                    iniciando en el mundo de la programación y la tecnologia.
+                </p>
+                <button class="profile-btn">
+                    Descargar Cv
+                </button>
+            </div>
+            <span class="profile-img-section">
+                <img class="profile-img"
+                src="img/Web Developer_Isometric.svg"
+                 alt="Programador Web">
+                 <div class="profile-img-line"></div>
+            </span>
+        </section>
+    </div>
+
+    <section class="experiences" id="experience">
+        <img src="img/wave.svg" alt="División" class="wave">
+        <div class="experiences-body">
+            <h2 class="experiences-title">Experiencia</h2>
+            <div class="experiences-grid">
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2020-2021</div>
+                    <div class="experience-company">Constellation Agency</div>
+                    <div class="experience-position">Desarrollador Jr</div>
+                    <div class="experience-description">
+                        Desarrollo de la interfaz de usuario, para la ips
+                        Medical center utilizamos Javascript.
+                    </div>
+                </div>
+                <div class="experience experience_left">
+                    <div class="experience-date">2020-2021</div>
+                    <div class="experience-company">Constellation Agency</div>
+                    <div class="experience-position">Desarrollador Jr</div>
+                    <div class="experience-description">
+                        Desarrollo de la interfaz de usuario, para la ips
+                        Medical center utilizamos Javascript.
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2020-2021</div>
+                    <div class="experience-company">Constellation Agency</div>
+                    <div class="experience-position">Desarrollador Jr</div>
+                    <div class="experience-description">
+                        Desarrollo de la interfaz de usuario, para la ips
+                        Medical center utilizamos Javascript.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/wave.svg" alt="División" class="wave wave_bottom">
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="skills" id="skills">
+           <h2 class="skills-title">Habilidades</h2>
+           <ul class="skills-list">
+               <li class="skills-skill">CSS</li>
+               <li class="skills-skill">HTML</li>
+               <li class="skills-skill">JAVASCRIPT</li>
+               <li class="skills-skill">GITHUB</li>
+           </ul>
+        </section>
+    </div>
+   
+    
+    <footer class="page-final" id="contact">
+        <div class="horizontal-padding vertical-padding">
+        <div class="credits">
+            <p class="nombre">Creado por Samuel Miranda</p>
+            <p class="ubicacion">Barranquilla / Colombia</p>
+        </div>
+        <div class="redes-sociales">
+            <a href="" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="" class="instagram"><i class="fa fa-instagram"></i></a>
+            <a href="" class="youtube"><i class="fa fa-youtube"></i></a>
+            <a href="" class="github"><i class="fa fa-github"></i></a>
+        </div>
+    </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
